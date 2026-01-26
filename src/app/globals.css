@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "locomotive-scroll/dist/locomotive-scroll.css";
+
 
 @theme {
   --font-sans: var(--font-geist-sans);
@@ -10,14 +12,13 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #000000;
     --foreground: #ededed;
   }
 }
 
-/* HeroUI adds its own base styles, but we can override here */
 body {
   color: var(--foreground);
   background: var(--background);
