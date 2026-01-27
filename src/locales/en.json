@@ -1,0 +1,14 @@
+{
+    "common": {
+        "name": "Keela Ayotte-Veltman",
+        "navbar": {
+            "home": "Home",
+            "projects": "Projects",
+            "about": "About"
+        }
+    },
+    "home": {
+        "title": "Welcome to my portfolio",
+        "description": "I am a developer passionate about creating modern web experiences."
+    }
+}

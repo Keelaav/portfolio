@@ -1,0 +1,14 @@
+{
+    "common": {
+        "name": "Keela Ayotte-Veltman",
+        "navbar": {
+            "home": "Accueil",
+            "projects": "Projets",
+            "about": "À propos"
+        }
+    },
+    "home": {
+        "title": "Bienvenue sur mon portfolio",
+        "description": "Je suis une développeuse passionnée par la création d'expériences web modernes."
+    }
+}
