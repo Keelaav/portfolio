@@ -1,5 +1,6 @@
 import { getDictionary } from "@/lib/get-dictionary";
 import { type Locale } from "@/i18n-config";
+import Image from "next/image";
 
 export default async function Home({
     params,
@@ -11,9 +12,14 @@ export default async function Home({
     const dictionary = await getDictionary(locale);
 
     return (
-        <div className="bg-gray-200 w-full p-8 rounded-2xl flex flex-col items-center justify-center">
-            <h1 className="text-4xl font-bold mb-4">{dictionary.home.title}</h1>
-            <p className="text-xl text-gray-600">{dictionary.home.description}</p>
+        <div className="relative w-full h-full flex-1 overflow-hidden">
+            <Image
+                src="/projets/maree_basse/maree_basse_thumbnail.jpg"
+                alt="Hero"
+                fill
+                className="object-cover"
+                priority
+            />
         </div>
     );
 }

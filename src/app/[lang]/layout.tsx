@@ -45,7 +45,7 @@ export default async function RootLayout({
                 <Providers>
                     <div className="min-h-screen w-screen flex flex-col" data-scroll-container>
                         <Navbar lang={locale} />
-                        <main className="flex flex-col items-center justify-center w-full h-full px-4 pb-4">
+                        <main className="flex-1 flex flex-col items-center justify-center w-full px-4 pb-4">
                             {children}
                         </main>
                     </div>

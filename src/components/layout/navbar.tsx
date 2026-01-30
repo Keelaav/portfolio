@@ -18,7 +18,6 @@ export default async function Navbar({ lang }: { lang: Locale }) {
                 <Link href={getPath("/")}>{dictionary.common.navbar.home}</Link>
                 <Link href={getPath("/projects")}>{dictionary.common.navbar.projects}</Link>
                 <Link href={getPath("/about")}>{dictionary.common.navbar.about}</Link>
-                <LanguageSwitcher currentLang={lang} />
             </div>
         </nav>
     );
